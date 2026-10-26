@@ -1,0 +1,13 @@
+# Keep restricted learning notes outside public repositories.
+# Ignore rules do not remove files that were already tracked.
+.private/
+private-notes/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
